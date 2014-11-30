@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="fr-FR">
+
+	<head>
+		<meta charset="utf-8" />
+	<title>{% if meta.title %}{{ meta.title }}{% endif %}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+        <link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+		<link rel="icon" type="image/png" href="{{ theme_url }}/img/icon-coin.png" />
+		<script type="text/javascript" src="{{ theme_url }}/scripts/konami.js"></script>
+		<script type="text/javascript" src="{{ theme_url }}/scripts/main.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="lang"><a href="{{ base_url }}/fr/">fr</a> | <a href="{{ base_url }}/en/">en</a></div>
+				<div id="logo">
+					<h1 class="hiddenTitle">COIN</h1>
+					<a href="/">
+					<img class="hiddenTitle" src="{{ theme_url }}/img/header-coin-low.png" alt="Logo COIN" />
+					</a>
+				</div>
+			</div>
+			
+			<div id="content">
+{{ content }}
+			</div>
+			
+			<div id="footer">
+			{% if config.lang_is_en %}
+				<p>Follow us <a href="https://www.facebook.com/extracoin"><img src="{{ theme_url }}/img/facebook.png" alt="Facebook" /></a> <a href="https://twitter.com/extracoin"><img src="{{ theme_url }}/img/twitter.png" alt="Twitter" /></a> <a href="http://www.linkedin.com/groups/Comit%C3%A9-dOrganisation-Interactivit%C3%A9s-Num%C3%A9riques-4651860"><img src="{{ theme_url }}/img/linkedin.png" alt="LinkedIn" /></a>&nbsp;&nbsp;
+				<a href="#" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.fr'">Contact us <img src="{{ theme_url }}/img/contact.png" alt="Contact" /></a>&nbsp;&nbsp;
+				<a href="adhesion">Join us <img src="{{ theme_url }}/img/adhesion.png" alt="Adhésion" /></a></p>
+			{% else %}
+				<p>Suivez notre actu <a href="https://www.facebook.com/extracoin"><img src="{{ theme_url }}/img/facebook.png" alt="Facebook" /></a> <a href="https://twitter.com/extracoin"><img src="{{ theme_url }}/img/twitter.png" alt="Twitter" /></a> <a href="http://www.linkedin.com/groups/Comit%C3%A9-dOrganisation-Interactivit%C3%A9s-Num%C3%A9riques-4651860"><img src="{{ theme_url }}/img/linkedin.png" alt="LinkedIn" /></a>&nbsp;&nbsp;
+				<a href="#" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.fr'">Contact <img src="{{ theme_url }}/img/contact.png" alt="Contact" /></a>&nbsp;&nbsp;
+				<a href="adhesion">Adhesion <img src="{{ theme_url }}/img/adhesion.png" alt="Adhésion" /></a></p>
+			{% endif %}
+			</div>
+		</div>
+		<div id="code"></div>
+	</body>
+	
+</html>

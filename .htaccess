@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# RewriteRule ^/$ index.html [L]
+
+RewriteCond %{HTTP:Accept-Language} ^(fr).*$ [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /fr/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /en/ [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . index.php [L]
+</IfModule>
+
+# Prevent file browsing
+Options -Indexes
