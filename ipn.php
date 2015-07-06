@@ -101,7 +101,7 @@
 			
 
 			
-			$sql = "INSERT INTO " . $config['database']['table']['ggj'] . " VALUES ('', '$nom', '$prenom', '$mail', '$categ', '$role', '$tel', '$comm', '$tarif', '$date_simple')";
+			$sql = "INSERT INTO ggj_inscription VALUES ('', '$nom', '$prenom', '$mail', '$categ', '$role', '$tel', '$comm', '$tarif', '$date_simple')";
 			mysqli_query($con,$sql);
 			
 			// insert recette
@@ -117,7 +117,7 @@
 			$mail_Subject = "[GGJ] Votre inscription est validée !";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 			$mail_Body = "Cher jammeur,";
 			$mail_Body .= "\r\n";
@@ -132,7 +132,7 @@
 			$mail_Subject = "[GGJ] Nouvelle inscription \\o/";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 			$mail_Body = "WOOT! Nous avons enregistré une nouvelle inscription au GGJ.";
 			$mail_Body .= "\r\n";
@@ -176,14 +176,14 @@
 			@mysql_select_db($DBNAME) or die( 'Unable to select database: ' . mysql_error());
 			mysql_query("SET NAMES utf8");
 			
-			$sql = "INSERT INTO " . $config['database']['table']['bbq'] . " VALUES ('', '$nom', '$prenom', '$mail', '$categ', '$role', '$tel', '$comm', '$tarif', '$date_simple')";
+			$sql = "INSERT INTO bbq_inscription VALUES ('', '$nom', '$prenom', '$mail', '$categ', '$role', '$tel', '$comm', '$tarif', '$date_simple')";
 			mysql_query($sql);
 			
 			// insert recette
-			$sql = "INSERT INTO piwam_recette VALUES ('', 'Inscription BBQ14', '1', '$payment_amount' , '3' , '11', '$date_simple', '1', '1', '1', '$date', '$date')";
+			$sql = "INSERT INTO piwam_recette VALUES ('', 'Inscription BBQ15', '1', '$payment_amount' , '3' , '14', '$date_simple', '1', '1', '1', '$date', '$date')";
 			mysql_query($sql);
 			$montant = $payment_amount * 0.034 + 0.25;
-			$sql = "INSERT INTO piwam_depense VALUES ('', 'Frais Paypal inscription BBQ14', '$montant', '1' , '3' , '6', '$date_simple', '1', '1', '1', '$date', '$date')";
+			$sql = "INSERT INTO piwam_depense VALUES ('', 'Frais Paypal inscription BBQ15', '$montant', '1' , '3' , '6', '$date_simple', '1', '1', '1', '$date', '$date')";
 			mysql_query($sql);
 			
 			mysql_close($con);
@@ -192,7 +192,7 @@
 			$mail_Subject = "[BBQ] Votre inscription au BBQ Game Jam est validée !";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "Cher jammeur,";
 			$mail_Body .= "\r\n";
@@ -207,11 +207,11 @@
 			$mail_Subject = "[BBQ] Nouvelle inscription \\o/";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "WOOT! Nous avons enregistré une nouvelle inscription au BBQ.";
 			$mail_Body .= "\r\n";
-			$mail_Body .= "\r\nVoici les informations sur cette inscription (un récapitulatif est dispo via http://extra-coin.fr/recap_bbq.php?allow=true).\r\n";
+			$mail_Body .= "\r\nVoici les informations sur cette inscription (un récapitulatif est dispo via http://extra-coin.org/recap_bbq.php?allow=true).\r\n";
 			$mail_Body .= "\r\nLes éventuelles recettes ont été ajoutées à Piwam.\r\n";
 			$mail_Body .= "\r\n";
 			$mail_Body .= "\r\n====================================================";
@@ -238,7 +238,7 @@
 			$mail_Subject = "[COIN] Don reçu via PAYPAL";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 			$mail_Body = "WOOT! Un don a été réalisé et validé via PAYPAL.";
 			$mail_Body .= "\r\n";
@@ -274,7 +274,7 @@
 			$mail_Subject = "[COIN] Merci pour votre don !";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 			$mail_Body = "Cher donateur,";
 			$mail_Body .= "\r\n";
@@ -296,7 +296,7 @@
 			$mail_Subject = "[COIN] Une nouvelle adhésion a été reglée via PAYPAL";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 			$mail_Body = "Une nouvelle adhésion a été réalisée et validée via PAYPAL.";
 			$mail_Body .= "\r\n";
@@ -380,7 +380,7 @@
 			$mail_Subject = "[COIN] Votre nouvelle adhésion";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 			
 			$validite =  date("d/m/Y", strtotime(date("Y-m-d", strtotime($date_simple)) . " +1 year"));
 
@@ -433,7 +433,7 @@
 		$mail_Subject = "[COIN] PAYPAL a invalidé une transaction";
 		$entetes  = "MIME-Version: 1.0\r\n";
 		$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-		$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+		$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 		$mail_Body = "Une nouvelle adhésion a été demandée (ou un don a été fait), mais PAYPAL n'a pas validé la transaction.";
 		$mail_Body .= "\r\n";
@@ -453,7 +453,7 @@
 		$mail_Subject = "[COIN] Une erreur inconnue est survenue lors d'une transaction PAYPAL";
 		$entetes  = "MIME-Version: 1.0\r\n";
 		$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-		$entetes .= "From: COIN website <" . $config['emails']['newAdhesion'] . ">\r\n";
+		$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
 
 		$mail_Body = "Une erreur inconnue est survenue lors d'une transaction PAYPAL.";
 		$mail_Body .= "\r\n";
