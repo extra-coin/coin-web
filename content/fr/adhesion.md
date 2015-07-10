@@ -1,12 +1,12 @@
 /*
 Title: COIN: Adhesion
-Description: 
+Description:
 */
 <div id="leftcontent" markdown=1>
 ## Formulaire d'adhesion
 					<form action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateForm()" method="post" name="myPayPal">
 						<input type="hidden" name="cmd" value="_xclick">
-						<input type="hidden" name="business" value="web-account@extra-coin.fr">
+						<input type="hidden" name="business" value="web-account@extra-coin.org">
 						<input type="hidden" name="lc" value="FR">
 						<input type="hidden" name="item_name" value="Cotisation annuelle COIN">
 						<input type="hidden" name="button_subtype" value="services">
@@ -14,7 +14,7 @@ Description:
 						<input type="hidden" name="currency_code" value="EUR">
 						<input type="hidden" name="tax_rate" value="0.000">
 						<input type="hidden" name="shipping" value="0.00">
-						<input type="hidden" name="notify_url" value="http://extra-coin.fr/ipn.php">
+						<input type="hidden" name="notify_url" value="http://extra-coin.org/ipn.php">
 						<input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
 						<table>
 						<tr><td><input type="hidden" name="on0" value="Type d'adhesion">Type d'adhesion</td></tr><tr><td><select name="os0" onchange="onTypeAdhesionChange()">
@@ -37,7 +37,7 @@ Description:
 						<tr><td>Code postal :</td></tr><tr><td><input type="text" name="zip" maxlength="200" size="44"></td></tr>
 						<tr><td>Ville :</td></tr><tr><td><input type="text" name="city" maxlength="200" size="44"><br /><br /></td></tr>
 						<tr><td><b>Contact administratif :</b></td></tr>
-						</table>						
+						</table>
 						</div>
 						<table>
 						<tr><td><input type="hidden" name="on1" value="Nom">Nom :</td></tr><tr><td><input type="text" name="os1" maxlength="200" size="44"></td></tr>
@@ -73,7 +73,7 @@ Ce formulaire vous redirigera vers Paypal qui vous permettra de régler votre co
 
 Il est également possible d'adhérer au COIN durant nos séminaires et certains de nos événements.
 
-Vous avez des difficultés à vous inscrire en ligne ? N'hésitez pas à <a href="mailto:contact@extra-coin.fr" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.fr'">nous contacter</a>.
+Vous avez des difficultés à vous inscrire en ligne ? N'hésitez pas à <a href="mailto:contact@extra-coin.org" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.org'">nous contacter</a>.
 
 
 ## Faire un don
@@ -81,16 +81,14 @@ Vous avez des difficultés à vous inscrire en ligne ? N'hésitez pas à <a href
 Vous souhaitez encourager notre activité ? Un don peut nous aider à proposer de meilleurs services à nos membres et organiser de meilleurs événements.
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_donations">
-					<input type="hidden" name="business" value="web-account@extra-coin.fr">
+					<input type="hidden" name="business" value="web-account@extra-coin.org">
 					<input type="hidden" name="lc" value="FR">
 					<input type="hidden" name="item_name" value="Don">
 					<input type="hidden" name="no_note" value="0">
 					<input type="hidden" name="currency_code" value="EUR">
-					<input type="hidden" name="notify_url" value="http://extra-coin.fr/ipn.php">
+					<input type="hidden" name="notify_url" value="http://extra-coin.org/ipn.php">
 					<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest">
 					<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
 					<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 					</form>
 </div>
-
-
