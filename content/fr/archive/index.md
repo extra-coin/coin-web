@@ -6,7 +6,9 @@ Description:
 <div id="leftcontent" markdown=1>
 ## Nos evenements
 Vous trouverez ici la liste de nos précédents événements, game jams, séminaires, soirées et formations.
-</div><div id="rightcontent" markdown=1>
+</div>
+
+<div id="rightcontent" markdown=1>
 ## Evenements precedents
 
 * **24 novembre 2012** – Journées Mondiales du Jeu Vidéo - Soirée spéciale jeux indépendants à Metz
