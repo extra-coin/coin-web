@@ -117,7 +117,7 @@
 			$mail_Subject = "[GGJ] Votre inscription est validée !";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "Cher jammeur,";
 			$mail_Body .= "\r\n";
@@ -132,11 +132,11 @@
 			$mail_Subject = "[GGJ] Nouvelle inscription \\o/";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "WOOT! Nous avons enregistré une nouvelle inscription au GGJ.";
 			$mail_Body .= "\r\n";
-			$mail_Body .= "\r\nVoici les informations sur cette inscription (un récapitulatif est dispo via http://extra-coin.fr/recap_ggj.php?allow=true).\r\n";
+			$mail_Body .= "\r\nVoici les informations sur cette inscription (un récapitulatif est dispo via http://extra-coin.org/recap_ggj.php?allow=true).\r\n";
 			$mail_Body .= "\r\nLes éventuelles recettes ont été ajoutées à Piwam.\r\n";
 			$mail_Body .= "\r\n";
 			$mail_Body .= "\r\n====================================================";
@@ -238,7 +238,7 @@
 			$mail_Subject = "[COIN] Don reçu via PAYPAL";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "WOOT! Un don a été réalisé et validé via PAYPAL.";
 			$mail_Body .= "\r\n";
@@ -274,7 +274,7 @@
 			$mail_Subject = "[COIN] Merci pour votre don !";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "Cher donateur,";
 			$mail_Body .= "\r\n";
@@ -296,7 +296,7 @@
 			$mail_Subject = "[COIN] Une nouvelle adhésion a été reglée via PAYPAL";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 			$mail_Body = "Une nouvelle adhésion a été réalisée et validée via PAYPAL.";
 			$mail_Body .= "\r\n";
@@ -380,7 +380,7 @@
 			$mail_Subject = "[COIN] Votre nouvelle adhésion";
 			$entetes  = "MIME-Version: 1.0\r\n";
 			$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-			$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+			$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 			
 			$validite =  date("d/m/Y", strtotime(date("Y-m-d", strtotime($date_simple)) . " +1 year"));
 
@@ -433,7 +433,7 @@
 		$mail_Subject = "[COIN] PAYPAL a invalidé une transaction";
 		$entetes  = "MIME-Version: 1.0\r\n";
 		$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-		$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+		$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 		$mail_Body = "Une nouvelle adhésion a été demandée (ou un don a été fait), mais PAYPAL n'a pas validé la transaction.";
 		$mail_Body .= "\r\n";
@@ -453,11 +453,11 @@
 		$mail_Subject = "[COIN] Une erreur inconnue est survenue lors d'une transaction PAYPAL";
 		$entetes  = "MIME-Version: 1.0\r\n";
 		$entetes .= "Content-type: text/plain; charset=utf-8\r\n";
-		$entetes .= "From: COIN website <contact@extra-coin.fr>\r\n";
+		$entetes .= "From: COIN website <contact@extra-coin.org>\r\n";
 
 		$mail_Body = "Une erreur inconnue est survenue lors d'une transaction PAYPAL.";
 		$mail_Body .= "\r\n";
-		$mail_Body .= "\r\nPAYPAL n'a pas pu être contacté pour valider la transaction, il faut donc vérifier sur le compte PAYPAL si une transaction a eu lieu. Si les données ci-dessous sont vides ou étranges, cela signifie qu'un accès non autorisé a été fait sur http://extra-coin.fr/ipn.php (ne pas cliquer sur ce lien, sinon un autre mail d'erreur sera envoyé).\r\n";
+		$mail_Body .= "\r\nPAYPAL n'a pas pu être contacté pour valider la transaction, il faut donc vérifier sur le compte PAYPAL si une transaction a eu lieu. Si les données ci-dessous sont vides ou étranges, cela signifie qu'un accès non autorisé a été fait sur http://extra-coin.org/ipn.php (ne pas cliquer sur ce lien, sinon un autre mail d'erreur sera envoyé).\r\n";
 		$mail_Body .= "\r\nIl faut également prendre contact avec la personne si besoin (voir dans les données brutes). Si elle a bien voulu adhérer, il faut lui envoyer manuellement le mail de bienvenue.\r\n";
 		$mail_Body .= "\r\n";
 		$mail_Body .= "\r\n====================================================";
