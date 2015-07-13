@@ -1,6 +1,6 @@
 /*
 Title: COIN: Identity card
-Description: 
+Description:
 */
 
 
@@ -10,23 +10,30 @@ COIN54 is a non-profit "loi 1901" french association (reference: W541001766) est
 
 ## Members of the board
 * **President** : Thomas Altenburger
-* **Vice-President** : Thomas Willaume
-* **Treasurer** : Sébastien KANAREK
+* **Vice-President** : Yvan Corsiglia
+* **Treasurer** : Thomas Altenburger
+* **Secretary** : Yvan Corsiglia
 
-* Thomas Cholley
-* Vincent Lark
 * Aymeric Girault
 * Alain Vagner
+* Anthony Guérin
+* Christophe Goessen
+* Lucille Herbay
+* Thibault Milan
+* Thomas Cholley
+* Thomas Schmitt
+* Vincent Lark
 
 ## Official documents
 
 * [Statutes (in French)](/content/static/StatutsCOIN54.pdf)
 * [Meeting minutes of the General Meeting 2013 (in French)](/content/static/CR-AG-Coin-2013.pdf)
+* [Meeting minutes of the General Meeting 2014 (in French)](/content/static/CR-AG-Coin-2014.pdf)
 
 
 </div><div id="rightcontent" markdown=1>
 ## Contact
-### Management Address 
+### Management Address
 
 	Association COIN54
 	Chez Thomas Altenburger
@@ -43,6 +50,6 @@ COIN54 is a non-profit "loi 1901" french association (reference: W541001766) est
 ### SIRET
 
 * SIREN: 789 312 451
-* SIRET: 789 312 451 00014 
+* SIRET: 789 312 451 00014
 
 </div>

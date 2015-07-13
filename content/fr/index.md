@@ -1,6 +1,6 @@
 /*
 Title: COIN: Comité d'Organisation des Interactivités Numériques
-Description: 
+Description:
 */
 
 <div id="leftcontent" markdown=1>
@@ -16,12 +16,12 @@ Le COIN, ou Comité d'Organisation des Interactivités Numériques, est un organ
 
 
 ## La communaute
-Le COIN, c'est aussi une communauté et un espace d'échange en ligne. Vous pouvez partager les articles qui vous semblent intéressants sur notre plateforme [Insert Coin](http://insert.extra-coin.fr). De même, nous sommes présents sur GitHub : [COIN sur GitHub](https://github.com/extra-coin).
+Le COIN, c'est aussi une communauté et un espace d'échange en ligne. Vous pouvez partager les articles qui vous semblent intéressants sur notre plateforme [Insert Coin](http://insert.extra-coin.org). De même, nous sommes présents sur GitHub : [COIN sur GitHub](https://github.com/extra-coin).
 
 </div>
 <div id="rightcontent" markdown=1>
 ## Prochains evenements
-**30-31 août 2014** – [BBQ Game Jam 2014](http://bbq.extra-coin.fr) au Technoport Luxembourg
+**5-6 septembre 2015** – [BBQ Game Jam 2015](http://bbq.extra-coin.org) au Technoport Luxembourg & TCRM-Blida Metz
 
 [Nos précédents événements](archive/)
 

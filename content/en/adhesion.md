@@ -1,6 +1,6 @@
 /*
 Title: COIN: Become a member
-Description: 
+Description:
 */
 <div id="leftcontent" markdown=1>
 ## Membership Form
@@ -14,7 +14,7 @@ Description:
 						<input type="hidden" name="currency_code" value="EUR">
 						<input type="hidden" name="tax_rate" value="0.000">
 						<input type="hidden" name="shipping" value="0.00">
-						<input type="hidden" name="notify_url" value="http://extra-coin.fr/ipn.php">
+						<input type="hidden" name="notify_url" value="http://extra-coin.org/ipn.php">
 						<input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
 						<table>
 						<tr><td><input type="hidden" name="on0" value="Type of membership">Type of membership</td></tr><tr><td><select name="os0" onchange="onTypeAdhesionChange()">
@@ -37,7 +37,7 @@ Description:
 						<tr><td>Postal Code:</td></tr><tr><td><input type="text" name="zip" maxlength="200" size="44"></td></tr>
 						<tr><td>City:</td></tr><tr><td><input type="text" name="city" maxlength="200" size="44"><br /><br /></td></tr>
 						<tr><td><b>Administrative contact:</b></td></tr>
-						</table>						
+						</table>
 						</div>
 						<table>
 						<tr><td><input type="hidden" name="on1" value="Nom">Last Name:</td></tr><tr><td><input type="text" name="os1" maxlength="200" size="44"></td></tr>
@@ -75,7 +75,7 @@ This form will redirect you to Paypal, which will enable you to pay safely with 
 
 It is also possible to become a COIN member during our seminars and some of our events.
 
-Do you have problems registering online? Feel free to <a href="mailto:contact@extra-coin.fr" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.fr'">contact us</a>.
+Do you have problems registering online? Feel free to <a href="mailto:contact@extra-coin.org" rel="nofollow" onclick="this.href='mailto:' + 'contact' + '@' + 'extra-coin.org'">contact us</a>.
 
 
 ## Donate to COIN
@@ -88,11 +88,9 @@ Do you wish to encourage our activities? One donation can help us to propose bet
 					<input type="hidden" name="item_name" value="Donation">
 					<input type="hidden" name="no_note" value="0">
 					<input type="hidden" name="currency_code" value="EUR">
-					<input type="hidden" name="notify_url" value="http://extra-coin.fr/ipn.php">
+					<input type="hidden" name="notify_url" value="http://extra-coin.org/ipn.php">
 					<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest">
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
 </div>
-
-
