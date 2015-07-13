@@ -6,7 +6,7 @@ Description:
 ## Membership Form
 					<form action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateForm()" method="post" name="myPayPal">
 						<input type="hidden" name="cmd" value="_xclick">
-						<input type="hidden" name="business" value="web-account@extra-coin.org">
+						<input type="hidden" name="business" value="web-account@extra-coin.fr">
 						<input type="hidden" name="lc" value="EN">
 						<input type="hidden" name="item_name" value="COIN annual subscription">
 						<input type="hidden" name="button_subtype" value="services">
@@ -83,7 +83,7 @@ Do you have problems registering online? Feel free to <a href="mailto:contact@ex
 Do you wish to encourage our activities? One donation can help us to propose better services to our members and to organize better events.
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_donations">
-					<input type="hidden" name="business" value="web-account@extra-coin.org">
+					<input type="hidden" name="business" value="web-account@extra-coin.fr">
 					<input type="hidden" name="lc" value="EN">
 					<input type="hidden" name="item_name" value="Donation">
 					<input type="hidden" name="no_note" value="0">
