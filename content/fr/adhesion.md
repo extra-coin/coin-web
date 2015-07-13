@@ -6,7 +6,7 @@ Description:
 ## Formulaire d'adhesion
 					<form action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateForm()" method="post" name="myPayPal">
 						<input type="hidden" name="cmd" value="_xclick">
-						<input type="hidden" name="business" value="web-account@extra-coin.org">
+						<input type="hidden" name="business" value="web-account@extra-coin.fr">
 						<input type="hidden" name="lc" value="FR">
 						<input type="hidden" name="item_name" value="Cotisation annuelle COIN">
 						<input type="hidden" name="button_subtype" value="services">
@@ -81,7 +81,7 @@ Vous avez des difficultés à vous inscrire en ligne ? N'hésitez pas à <a href
 Vous souhaitez encourager notre activité ? Un don peut nous aider à proposer de meilleurs services à nos membres et organiser de meilleurs événements.
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_donations">
-					<input type="hidden" name="business" value="web-account@extra-coin.org">
+					<input type="hidden" name="business" value="web-account@extra-coin.fr">
 					<input type="hidden" name="lc" value="FR">
 					<input type="hidden" name="item_name" value="Don">
 					<input type="hidden" name="no_note" value="0">
