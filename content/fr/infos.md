@@ -9,20 +9,27 @@ Description:
 COIN54 est une à but non lucratif "loi 1901" (matricule W541001766) créée en 2012.
 ## Membres du bureau
 * **Président** : Thomas Altenburger
-* **Vice-Président** : Thomas Willaume
-* **Trésorier** : Sébastien KANAREK
+* **Vice-Président** : Yvan Corsiglia
+* **Trésorier** : Thomas Altenburger
+* **Secrétaire** : Yvan Corsiglia
 
 ## Membres du CA
 
-* Thomas Cholley
-* Vincent Lark
 * Aymeric Girault
 * Alain Vagner
+* Anthony Guérin
+* Christophe Goessen
+* Lucille Herbay
+* Thibault Milan
+* Thomas Cholley
+* Thomas Schmitt
+* Vincent Lark
 
 ## Documents officiels
 
 * [Statuts](/content/static/StatutsCOIN54.pdf)
 * [Compte-rendu d'AG 2013](/content/static/CR-AG-Coin-2013.pdf)
+* [Compte-rendu d'AG 2014](/content/static/CR-AG-Coin-2014.pdf)
 
 
 </div><div id="rightcontent" markdown=1>
