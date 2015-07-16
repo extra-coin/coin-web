@@ -60,11 +60,11 @@ while ($row = mysql_fetch_array($result)) {
     echo "    <td style=\"border: thin solid #6495ed;\">".$row['tarif']."</td>\n" ;
     echo "    <td style=\"border: thin solid #6495ed;\">".$row['date']."</td>\n" ;
     echo "  </tr>\n" ;
-	if (collator_compare($coll,$row['categ'],'Jeux vidéo') == 0)
+	if (collator_compare($coll,$row['categ'],'Technoport') == 0)
 	{
 		$newsletter .= $row['mail'].",";
 	}
-	else if (collator_compare($coll,$row['categ'],'Visiteur') == 0)
+	else if (collator_compare($coll,$row['categ'],'Blida') == 0)
 	{
 		$visitor_ns .= $row['mail'].",";
 	}
@@ -72,8 +72,8 @@ while ($row = mysql_fetch_array($result)) {
 }
 echo "  </tbody>\n" ;
 echo "</table>\n" ;
-echo "Mailing list participants (BCC plz!):<br/><br/> ".$newsletter;
-echo "<br/><br/>Mailing list visiteurs (BCC plz!):<br/><br/> ".$visitor_ns;
+echo "Mailing list Technoport (BCC plz!):<br/><br/> ".$newsletter;
+echo "<br/><br/>Mailing list Blida (BCC plz!):<br/><br/> ".$visitor_ns;
 
 mysql_close($link) ;
 
