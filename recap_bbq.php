@@ -23,8 +23,8 @@ $dbuser = $config['database']['username'];
 $dbpw = $config['database']['password'];
 $tablename = $config['database']['table']['bbq'] ;
 
-$link = mysql_connect($dbaddress, $dbuser, $dbpw);
-mysql_select_db($dbname, $link);
+$link = mysql_connect($dbaddress, $dbuser, $dbpw) or die('SQL ERROR'.$sql.'<br>'.mysql_error());
+mysql_select_db($dbname, $link) or die('SQL ERROR'.$sql.'<br>'.mysql_error());
 
 echo "<table style=\"border: medium solid #000000;\">\n" ;
 echo "  <thead>\n" ;
@@ -42,8 +42,8 @@ echo "    <td style=\"border: thin solid #6495ed;\">date</td>\n" ;
 echo "  </tr>\n" ;
 echo "  </thead>\n" ;
 echo "  <tbody>\n" ;
-$query = "SELECT * FROM ` ". $tablename . "`" ;
-$result = mysql_query($query,$link) ;
+$query = "SELECT * FROM `". $tablename . "`" ;
+$result = mysql_query($query,$link) or die('SQL ERROR'.$sql.'<br>'.mysql_error());
 $count = 1;
 $newsletter = "";
 $visitor_ns = "";
