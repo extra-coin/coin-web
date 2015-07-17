@@ -16,7 +16,9 @@ The COIN association is present in the Greater Region to:
 
 
 ## The community
-COIN is also an online community. You can share the articles you find interesting on our ["Insert Coin"](http://insert.extra-coin.org) platform. We are also present on GitHub: [COIN on GitHub](https://github.com/extra-coin).
+<!--
+COIN is also an online community. You can share the articles you find interesting on our ["Insert Coin"](http://insert.extra-coin.org) platform. -->
+We are present on GitHub: [COIN on GitHub](https://github.com/extra-coin).
 
 </div>
 <div id="rightcontent" markdown=1>
