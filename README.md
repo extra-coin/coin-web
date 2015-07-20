@@ -1,6 +1,6 @@
 # coin-web
 
-Code that power http://extra-coin.fr .
+Code that power http://extra-coin.org .
 
 
 ## License

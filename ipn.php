@@ -439,7 +439,7 @@
 		$mail_Body .= "\r\n";
 		$mail_Body .= "\r\nIl faut donc vérifier sur le compte PAYPAL si une transaction a eu lieu et se connecter à Piwam pour ajouter l'adhesion/don si besoin.\r\n";
 		$mail_Body .= "\r\nIl faut également prendre contact avec la personne si besoin (voir dans les données brutes). Si elle a bien voulu adhérer, il faut lui envoyer manuellement le mail de bienvenue.\r\n";
-		$mail_Body .= "\r\nSi les données ci-dessous sont vides ou étranges, cela signifie qu'un accès non autorisé a été fait sur http://extra-coin.fr/ipn.php (ne pas cliquer sur ce lien, sinon un autre mail d'erreur sera envoyé).\r\n";
+		$mail_Body .= "\r\nSi les données ci-dessous sont vides ou étranges, cela signifie qu'un accès non autorisé a été fait sur http://extra-coin.org/ipn.php (ne pas cliquer sur ce lien, sinon un autre mail d'erreur sera envoyé).\r\n";
 		$mail_Body .= "\r\n====================================================";
 		
 		$emailtext = "\r\n\r\nDonnées brutes de Paypal (à conserver en cas de problème de transaction) :\r\n\r\n";
