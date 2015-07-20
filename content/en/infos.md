@@ -9,20 +9,10 @@ Description:
 COIN54 is a non-profit "loi 1901" french association (reference: W541001766) established in 2012.
 
 ## Members of the board
-* **President** : Thomas Altenburger
-* **Vice-President** : Yvan Corsiglia
-* **Treasurer** : Thomas Altenburger
-* **Secretary** : Yvan Corsiglia
-
-* Aymeric Girault
+* **President/Treasurer** : Thomas Altenburger
+* **Vice-President/Secretary** : Yvan Corsiglia
 * Alain Vagner
 * Anthony Guérin
-* Christophe Goessen
-* Lucille Herbay
-* Thibault Milan
-* Thomas Cholley
-* Thomas Schmitt
-* Vincent Lark
 
 ## Official documents
 

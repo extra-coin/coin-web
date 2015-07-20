@@ -12,7 +12,7 @@ Vous trouverez ici la liste de nos précédents événements, game jams, sémina
 ## Evenements precedents
 
 * **24 Novembre 2012** – Journées Mondiales du Jeu Vidéo - Soirée spéciale jeux indépendants à Metz
-* **27-29 Janvier 2012  – [Global Game Jam 2012 au restaurant GUST Metz](http://ggj.extra-coin.org)
+* **27-29 Janvier 2012**  – [Global Game Jam 2012 au restaurant GUST Metz](http://ggj.extra-coin.org)
 * **25-27 Janvier 2013** – [Global Game Jam 2013 à EPITECH Nancy](http://ggj.extra-coin.org)
 * **26 Avril 2013** – Soirée post-GGJ et pré Game Jam d'été
 * **6 Juin 2013** – [Séminaire Craftstudio avec Elisée Maurer à EPITECH Nancy](craftstudio2013)

@@ -16,7 +16,9 @@ Le COIN, ou Comité d'Organisation des Interactivités Numériques, est un organ
 
 
 ## La communaute
-Le COIN, c'est aussi une communauté et un espace d'échange en ligne. Vous pouvez partager les articles qui vous semblent intéressants sur notre plateforme [Insert Coin](http://insert.extra-coin.org). De même, nous sommes présents sur GitHub : [COIN sur GitHub](https://github.com/extra-coin).
+<!--
+Le COIN, c'est aussi une communauté et un espace d'échange en ligne. Vous pouvez partager les articles qui vous semblent intéressants sur notre plateforme [Insert Coin](http://insert.extra-coin.org). De même, -->
+Nous sommes présents sur GitHub : [COIN sur GitHub](https://github.com/extra-coin).
 
 </div>
 <div id="rightcontent" markdown=1>
