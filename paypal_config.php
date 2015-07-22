@@ -3,7 +3,7 @@ $config = parse_ini_file('../../secret.ini',true);
 $paypal_server = "www.paypal.com"; // "www.paypal.com" si production
 $paypal_account = $config['paypal']['account']; // mettre le compte paypal de COIN ici
 
-$coin_new_adhesion_mail = $config['email']['newAdhesion'];
+$coin_new_adhesion_mail = $config['emails']['newAdhesion'];
 
 
 
